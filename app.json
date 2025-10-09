@@ -33,8 +33,13 @@
       "required": true
     },
     "LINK_UP_REGION": {
-      "description": "Your region. Used to determine the correct LibreLinkUp service (Possible values: AE, AP, AU, CA, DE, EU2, EU2, FR, JP, US)",
+      "description": "Your region. Used to determine the correct LibreLinkUp service (Possible values: AE, AP, AU, CA, DE, EU, EU2, FR, JP, US, LA, RU, CN)",
       "value": "EU",
+      "required": false
+    },
+    "LINK_UP_VERSION": {
+      "description": "LibreLink Up App Version. This may need to be updated if you are using a newer version of the LibreLink Up App",
+      "value": "4.16.0",
       "required": false
     },
     "NIGHTSCOUT_URL": {
